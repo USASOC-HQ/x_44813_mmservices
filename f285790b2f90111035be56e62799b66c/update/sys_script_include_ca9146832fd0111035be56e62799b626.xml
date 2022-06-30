@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_44813_mmservices.Site17MMServicesUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>General utility class for the SIte 17 Multimedia Services application.</description>
+        <name>Site17MMServicesUtil</name>
+        <script><![CDATA[var Site17MMServicesUtil = (function() {
+	var site17MMServicesUtilConstructor = Class.create();
+	site17MMServicesUtilConstructor.getDefaultMinLeadTimeDays = function() {
+		var defaultMinLeadTime = parseInt('' + gs.getProperty('x_44813_mmservices.default_min_leadTime_days', ''));
+		return isNaN(defaultMinLeadTime) ? 3 : defaultMinLeadTime;
+	};
+	site17MMServicesUtilConstructor.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+		getDefaultMinLeadTimeDays: function() { return Site17MMServicesUtil.getDefaultMinLeadTimeDays(); },
+		type: 'Site17MMServicesUtil'
+	});
+})();]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-29 19:31:29</sys_created_on>
+        <sys_id>ca9146832fd0111035be56e62799b626</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Site17MMServicesUtil</sys_name>
+        <sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope>
+        <sys_update_name>sys_script_include_ca9146832fd0111035be56e62799b626</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-29 19:32:27</sys_updated_on>
+    </sys_script_include>
+</record_update>
