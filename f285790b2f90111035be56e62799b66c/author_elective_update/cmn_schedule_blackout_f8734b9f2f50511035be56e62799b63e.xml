@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmn_schedule_blackout">
+    <cmn_schedule_blackout action="DELETE">
+        <applies_to>cmdb_ci_service</applies_to>
+        <calendar_name>SIte 17 Multimedia Services Blackout Hours</calendar_name>
+        <condition/>
+        <description>This defines the hours when Multimedia Services is not available for scheduling appointments. This is intended to exclude those hours that are defined in the "Site 17 Multimedia Services Hours" schedule.</description>
+        <document/>
+        <document_key/>
+        <is_legacy_schedule>true</is_legacy_schedule>
+        <label>SIte 17 Multimedia Services Blackout Hours</label>
+        <name>SIte 17 Multimedia Services Blackout Hours</name>
+        <parent/>
+        <plural_label/>
+        <read_only>false</read_only>
+        <source>cmdb_ci_service</source>
+        <sys_class_name>cmn_schedule_blackout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-30 18:46:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f8734b9f2f50511035be56e62799b63e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SIte 17 Multimedia Services Blackout Hours</sys_name>
+        <sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope>
+        <sys_update_name>cmn_schedule_blackout_f8734b9f2f50511035be56e62799b63e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-30 18:46:30</sys_updated_on>
+        <time_zone>US/Eastern</time_zone>
+        <type>blackout</type>
+    </cmn_schedule_blackout>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</application>
+        <file_path/>
+        <instance_id>8810b209db536c90f37acac505961973</instance_id>
+        <instance_name>dev109722</instance_name>
+        <name>cmn_schedule_blackout_f8734b9f2f50511035be56e62799b63e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmn_schedule_blackout"><cmn_schedule_blackout action="INSERT_OR_UPDATE"><applies_to>cmdb_ci_service</applies_to><calendar_name>SIte 17 Multimedia Services Blackout Hours</calendar_name><condition/><description>This defines the hours when Multimedia Services is not available for scheduling appointments. This is intended to exclude those hours that are defined in the "Site 17 Multimedia Services Hours" schedule.</description><document/><document_key/><is_legacy_schedule>true</is_legacy_schedule><label>SIte 17 Multimedia Services Blackout Hours</label><name>SIte 17 Multimedia Services Blackout Hours</name><parent/><plural_label/><read_only>false</read_only><source>cmdb_ci_service</source><sys_class_name>cmn_schedule_blackout</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-30 18:46:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f8734b9f2f50511035be56e62799b63e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SIte 17 Multimedia Services Blackout Hours</sys_name><sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package><sys_policy/><sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope><sys_update_name>cmn_schedule_blackout_f8734b9f2f50511035be56e62799b63e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-30 18:46:30</sys_updated_on><time_zone>US/Eastern</time_zone><type>blackout</type></cmn_schedule_blackout></record_update>]]></payload>
+        <payload_hash>472504967</payload_hash>
+        <record_name>SIte 17 Multimedia Services Blackout Hours</record_name>
+        <reverted_from/>
+        <source>e1dd0a972fdc111035be56e62799b63e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-30 18:46:30</sys_created_on>
+        <sys_id>bff34f5f2f50511035be56e62799b647</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181b5efa66c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-30 18:46:30</sys_updated_on>
+        <type>Blackout Schedule</type>
+        <update_guid>f7f34f5fc3505110e8eb39055684f447</update_guid>
+        <update_guid_history>f7f34f5fc3505110e8eb39055684f447:472504967</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SIte 17 Multimedia Services Blackout Hours">99c987d32f90511035be56e62799b6b5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-30 19:11:44</sys_created_on>
+        <sys_db_object display_value="" name="cmn_schedule_blackout">cmn_schedule_blackout</sys_db_object>
+        <sys_id>994f8e86aefd40649c6ded6bbffaa1e4</sys_id>
+        <sys_metadata>f8734b9f2f50511035be56e62799b63e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SIte 17 Multimedia Services Blackout Hours</sys_name>
+        <sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package>
+        <sys_parent display_value="CMDB CI Service">59cede22a5700110c0a0e1db2cdc95da</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope>
+        <sys_scope_delete display_value="">06a5e8e7351c4b2280e525755e844f44</sys_scope_delete>
+        <sys_update_name>cmn_schedule_blackout_f8734b9f2f50511035be56e62799b63e</sys_update_name>
+        <sys_update_version display_value="cmn_schedule_blackout_f8734b9f2f50511035be56e62799b63e">bff34f5f2f50511035be56e62799b647</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-30 19:11:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

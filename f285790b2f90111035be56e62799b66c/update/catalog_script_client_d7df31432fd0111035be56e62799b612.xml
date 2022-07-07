@@ -18,7 +18,7 @@
         <name>Auto-populate phone and section</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   // Auto-fills "Contact Phone" and "Unit/Section" form fields from user profile.
+    // Auto-fills "Contact Phone" and "Unit/Section" form fields from user profile.
     function onUserRecordLoaded(userGr) {
         if (userGr.next()) {
             var phone = userGr.getValue('phone');
@@ -26,17 +26,17 @@
                 g_form.setValue('contact_phone_number', phone);
             var sys_id = userGr.getValue('department');
             if (typeof sys_id === 'string' && sys_id.trim().length > 0) {
-				var gr2 = new GlideRecord('cmn_department');
-				gr2.addQuery('sys_id', sys_id);
-				gr2.query(function(deptGr) {
-					if (deptGr.next())
-						g_form.setValue('unit_or_section', deptGr.name);
-				});
-			}
+                var gr2 = new GlideRecord('cmn_department');
+                gr2.addQuery('sys_id', sys_id);
+                gr2.query(function(deptGr) {
+                    if (deptGr.next())
+                        g_form.setValue('unit_or_section', deptGr.name);
+                });
+            }
         }
     }
     var gr = new GlideRecord('sys_user');
-    gr.addQuery ('sys_id', g_user.userID);
+    gr.addQuery('sys_id', g_user.userID);
     gr.query(onUserRecordLoaded);
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -45,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d7df31432fd0111035be56e62799b612</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Auto-populate phone and section</sys_name>
         <sys_overrides/>
         <sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope>
         <sys_update_name>catalog_script_client_d7df31432fd0111035be56e62799b612</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-29 19:12:48</sys_updated_on>
+        <sys_updated_on>2022-07-07 18:36:24</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
