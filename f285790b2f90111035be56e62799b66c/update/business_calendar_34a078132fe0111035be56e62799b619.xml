@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="business_calendar">
+    <business_calendar action="INSERT_OR_UPDATE">
+        <calendar_name>Multimedia Services Photography Studio Appointment Calendar (Site 17)</calendar_name>
+        <description>Multimedia Services Photograhy studio sessions</description>
+        <is_legacy_schedule>false</is_legacy_schedule>
+        <label>Photography Studio Appointment</label>
+        <parent/>
+        <plural_label>Photography Studio Appointments</plural_label>
+        <sys_class_name>business_calendar</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-12 18:21:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>34a078132fe0111035be56e62799b619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Photography Studio Appointment</sys_name>
+        <sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope>
+        <sys_update_name>business_calendar_34a078132fe0111035be56e62799b619</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-12 18:21:28</sys_updated_on>
+        <time_zone>US/Eastern</time_zone>
+    </business_calendar>
+</record_update>

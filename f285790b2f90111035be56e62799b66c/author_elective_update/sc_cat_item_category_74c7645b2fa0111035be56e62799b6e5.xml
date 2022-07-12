@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Studio Photography">f2a6681b2fa0111035be56e62799b67d</sc_cat_item>
+        <sc_category display_value="Multimedia Services (Site 17)">77a52cd72fa0111035be56e62799b623</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-12 17:39:35</sys_created_on>
+        <sys_id>74c7645b2fa0111035be56e62799b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Multimedia Services (Site 17).Studio Photography</sys_name>
+        <sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope>
+        <sys_update_name>sc_cat_item_category_74c7645b2fa0111035be56e62799b6e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-12 17:39:35</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</application>
+        <file_path/>
+        <instance_id>8810b209db536c90f37acac505961973</instance_id>
+        <instance_name>dev109722</instance_name>
+        <name>sc_cat_item_category_74c7645b2fa0111035be56e62799b6e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Studio Photography">f2a6681b2fa0111035be56e62799b67d</sc_cat_item><sc_category display_value="Multimedia Services (Site 17)">77a52cd72fa0111035be56e62799b623</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-12 17:39:35</sys_created_on><sys_id>74c7645b2fa0111035be56e62799b6e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Multimedia Services (Site 17).Studio Photography</sys_name><sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package><sys_policy/><sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope><sys_update_name>sc_cat_item_category_74c7645b2fa0111035be56e62799b6e5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-12 17:39:35</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-57369313</payload_hash>
+        <record_name>Multimedia Services (Site 17).Studio Photography</record_name>
+        <reverted_from/>
+        <source>e1dd0a972fdc111035be56e62799b63e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-12 17:39:35</sys_created_on>
+        <sys_id>f8c7a45b2fa0111035be56e62799b601</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181f37eb3a50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-12 17:39:35</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>b4c7645b9da0111020263f8987c687e8</update_guid>
+        <update_guid_history>b4c7645b9da0111020263f8987c687e8:-57369313</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Multimedia Services (Site 17).Studio Photography">b3fbac1f2fa0111035be56e62799b635</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-12 17:58:06</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>a2efe4a877fe4090957c64570b6eba40</sys_id>
+        <sys_metadata>74c7645b2fa0111035be56e62799b6e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Multimedia Services (Site 17).Studio Photography</sys_name>
+        <sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope>
+        <sys_scope_delete display_value="">06a5e8e7351c4b2280e525755e844f44</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_74c7645b2fa0111035be56e62799b6e5</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_74c7645b2fa0111035be56e62799b6e5">f8c7a45b2fa0111035be56e62799b601</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-12 17:58:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
