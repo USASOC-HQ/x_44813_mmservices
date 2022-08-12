@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Type of Certificate">b304345497511110d87839000153afdb</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-09 17:40:59</sys_created_on>
+        <sys_id>b574349497511110d87839000153af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Eagle and Sword</sys_name>
+        <sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope>
+        <sys_update_name>question_choice_b574349497511110d87839000153af05</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-09 17:40:59</sys_updated_on>
+        <text>Eagle and Sword</text>
+        <value>eagle_and_swod</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=b574349497511110d87839000153af05"/>
+</record_update>
