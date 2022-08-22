@@ -8,13 +8,36 @@
         <description>General utility class for the SIte 17 Multimedia Services application.</description>
         <name>Site17MMServicesUtil</name>
         <script><![CDATA[var Site17MMServicesUtil = (function() {
-	var site17MMServicesUtilConstructor = Class.create();
-	site17MMServicesUtilConstructor.getDefaultMinLeadTimeDays = function() {
-		var defaultMinLeadTime = parseInt('' + gs.getProperty('x_44813_mmservices.default_min_leadTime_days', ''));
-		return isNaN(defaultMinLeadTime) ? 3 : defaultMinLeadTime;
-	};
+    var site17MMServicesUtilConstructor = Class.create();
+    site17MMServicesUtilConstructor.SCHEDULE_SYS_ID = '4882479b2f50511035be56e62799b64c';
+    site17MMServicesUtilConstructor.DATE_PATTERN = /^\d{4}-(0[1-9]|1[0-2])-[0-2]\d|3[01]$/;
+    site17MMServicesUtilConstructor.TIME_PATTERN = /^([01]\d|2[0-3]):[0-5]\d$/;
+    site17MMServicesUtilConstructor.TIME_RANGE_PATTERN = /^((?:[01]\d|2[0-3]):[0-5]\d)-((?:[01]\d|2[0-3]):[0-5]\d)$/;
+    site17MMServicesUtilConstructor.getDefaultMinLeadTimeDays = function () {
+        var defaultMinLeadTime = parseInt('' + gs.getProperty('x_44813_mmservices.default_min_leadTime_days', ''));
+        return isNaN(defaultMinLeadTime) ? 3 : defaultMinLeadTime;
+    };
+    site17MMServicesUtilConstructor.getDailyHours = function () {
+        var setting = gs.getProperty('x_44813_mmservices.studio_hours', '');
+        return setting.split(/[\r\n]+/).map(function (line) {
+            if (line.length > 0) {
+                var r = site17MMServicesUtilConstructor.TIME_RANGE_PATTERN.exec(setting);
+                if (typeof r === 'object' && r !== null) {
+                    var a = { start: new GlideTime(), end: new GlideTime() };
+                    a.start.setDisplayValue(r[1] + ":00");
+                    a.end.setDisplayValue(r[2] + ":00");
+                    return a;
+                }
+            }
+        }).filter(function (value) { return typeof value !== 'undefined'; });
+    };
 	site17MMServicesUtilConstructor.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
-		getDefaultMinLeadTimeDays: function() { return Site17MMServicesUtil.getDefaultMinLeadTimeDays(); },
+        initialize: function () { },
+        getDefaultMinLeadTimeDays: function () { return Site17MMServicesUtil.getDefaultMinLeadTimeDays(); },
+        getDailyHours: function () {
+            var dailyHours = site17MMServicesUtilConstructor.getDailyHours();
+            return JSON.stringify(dailyHours.map(function (r) { return { start: r.start.getDisplayValue(), end: r.end.getDisplayValue() }; }));
+        },
 		type: 'Site17MMServicesUtil'
 	});
 })();]]></script>
@@ -22,13 +45,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-29 19:31:29</sys_created_on>
         <sys_id>ca9146832fd0111035be56e62799b626</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Site17MMServicesUtil</sys_name>
         <sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope>
         <sys_update_name>sys_script_include_ca9146832fd0111035be56e62799b626</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-29 19:32:27</sys_updated_on>
+        <sys_updated_on>2022-07-14 20:37:36</sys_updated_on>
     </sys_script_include>
 </record_update>

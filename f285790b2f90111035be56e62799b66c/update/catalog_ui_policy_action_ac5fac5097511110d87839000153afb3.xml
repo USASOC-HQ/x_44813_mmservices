@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Studio Photography">6a48ecd897111110d87839000153afc7</catalog_item>
+        <catalog_variable>IO:2e8b205c97111110d87839000153af84</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-09 17:18:19</sys_created_on>
+        <sys_id>ac5fac5097511110d87839000153afb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>prints_2x2</sys_name>
+        <sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_ac5fac5097511110d87839000153afb3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-09 17:18:19</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Require 2x2 if passport">2bcee45097511110d87839000153afe2</ui_policy>
+        <variable>prints_2x2</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
