@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="Service Catalog core applications" source="com.glideapp.servicecatalog">b59122e6a5740110c0a0e1db2cdc956d</dependency>
+        <dependency display_value="Service Catalog core applications" source="com.glideapp.servicecatalog">91ad0057db803300b53f341f7c9619a9</dependency>
         <min_version/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-30 18:19:40</sys_created_on>

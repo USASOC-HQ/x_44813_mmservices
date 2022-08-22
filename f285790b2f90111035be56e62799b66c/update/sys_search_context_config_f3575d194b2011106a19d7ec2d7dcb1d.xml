@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
     <sys_search_context_config action="INSERT_OR_UPDATE">
+        <application_id display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</application_id>
         <genius_results_limit/>
         <hit_highlighting>false</hit_highlighting>
         <name>x_44813_my_woots - Time Off</name>
@@ -23,5 +24,4 @@
         <ts_index_group/>
         <view/>
     </sys_search_context_config>
-    <sys_translated_text action="delete_multiple" query="documentkey=f3575d194b2011106a19d7ec2d7dcb1d"/>
 </record_update>

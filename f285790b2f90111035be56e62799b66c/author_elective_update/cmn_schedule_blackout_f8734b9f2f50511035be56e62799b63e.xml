@@ -56,7 +56,7 @@
         <update_guid_history>f7f34f5fc3505110e8eb39055684f447:472504967</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SIte 17 Multimedia Services Blackout Hours">99c987d32f90511035be56e62799b6b5</sys_audit_delete>
+        <sys_audit_delete display_value="">99c987d32f90511035be56e62799b6b5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-30 19:11:44</sys_created_on>
@@ -66,7 +66,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>SIte 17 Multimedia Services Blackout Hours</sys_name>
         <sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package>
-        <sys_parent display_value="CMDB CI Service">59cede22a5700110c0a0e1db2cdc95da</sys_parent>
+        <sys_parent display_value="">59cede22a5700110c0a0e1db2cdc95da</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope>
         <sys_scope_delete display_value="">06a5e8e7351c4b2280e525755e844f44</sys_scope_delete>

@@ -65,7 +65,7 @@
         <update_guid_history>deb6f54bef901110ee8193de590b2b56:-798240577</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Catalog Item">3af6b94b2f90111035be56e62799b6e3</sys_audit_delete>
+        <sys_audit_delete display_value="">3af6b94b2f90111035be56e62799b6e3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-29 18:31:32</sys_created_on>
