@@ -2,7 +2,7 @@
     <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
         <order>5</order>
         <search_context_config display_value="x_44813_my_woots - Time Off">f3575d194b2011106a19d7ec2d7dcb1d</search_context_config>
-        <source display_value="Time off request">ff575d19bf201110da3180c15359a86e</source>
+        <source display_value="">ff575d19bf201110da3180c15359a86e</source>
         <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-14 20:15:33</sys_created_on>
