@@ -5,7 +5,7 @@
         <api_name>x_44813_mmservices.Site17MMServicesUtil</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
-        <description>General utility class for the SIte 17 Multimedia Services application.</description>
+        <description>Main API for the Site 17 Multimedia Services application.</description>
         <name>Site17MMServicesUtil</name>
         <script><![CDATA[var Site17MMServicesUtil = (function() {
     var schedule_sys_id = '4882479b2f50511035be56e62799b64c';
@@ -116,13 +116,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-29 19:31:29</sys_created_on>
         <sys_id>ca9146832fd0111035be56e62799b626</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Site17MMServicesUtil</sys_name>
         <sys_package display_value="Site 17 Multimedia Services" source="x_44813_mmservices">f285790b2f90111035be56e62799b66c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Site 17 Multimedia Services">f285790b2f90111035be56e62799b66c</sys_scope>
         <sys_update_name>sys_script_include_ca9146832fd0111035be56e62799b626</sys_update_name>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2022-08-22 18:15:54</sys_updated_on>
+        <sys_updated_on>2022-09-21 21:05:14</sys_updated_on>
     </sys_script_include>
 </record_update>
